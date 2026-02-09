@@ -1,4 +1,36 @@
 # Project2026
+“My project is on Predicting Brand Deal Closure for Instagram Influencers using Machine Learning.
+The goal was to understand what factors help brands successfully close deals with influencers, and to build a model that can predict whether a deal will close or not.”
+“Brands spend a lot of money on influencer marketing, but many negotiations fail due to poor fit, slow response, or too many negotiations.
+I wanted to analyze influencer-brand interactions and build a model that predicts whether a deal will close.”
+“I used a dataset with 300 influencer-brand negotiation records.
+It contains features like:
+
+Followers
+
+Engagement rate
+
+Brand fit score
+
+Past collaboration success
+
+Response time
+
+Negotiation rounds
+
+Whether influencer asked for payment or free product
+
+Final deal outcome (deal_closed: 0 or 1)”
+“First, I performed EDA to understand patterns. I found that:
+
+Higher brand fit score increases chances of deal closure
+
+Higher past success rate increases chances of deal
+
+More negotiation rounds reduce success
+
+Slower brand response time reduces success.”
+
 Model Performance and Insights
 The RandomForestClassifier, incorporating one-hot encoded categorical features, achieved an accuracy of 60% on the test set. This is an improvement compared to the Logistic Regression model (50% accuracy) and is slightly better than the best KNN model (53.3% accuracy).
 Key Insights from Feature Importance:
